@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #f0f0f0;
 }
 
 * {
@@ -17,4 +18,65 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 184px;
+  margin-bottom: 20px;
+}
+
+.header .register-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1,
+h2,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.register-button {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  padding: 3px 8px;
+  font-size: 5px;
+}
+
+.register-header .fas {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.main {
+  width: 981px;
+  margin: 0 auto;
+}
+
+.facebook {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px 2px;
+}
+.facebook-list {
+  background-color: white;
+  margin: auto;
+  padding: 30px 30px;
+}
+.facebook-list:first-child {
+  margin-right: 30px;
+}
+
+.facebook-list-caption {
+  color: gray;
+  margin-bottom: 50px;
 }
